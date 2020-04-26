@@ -12,7 +12,7 @@ class SOPTmainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setRound()
         // Do any additional setup after loading the view.
     }
     
@@ -20,7 +20,8 @@ class SOPTmainViewController: UIViewController {
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var pwTextField: UITextField!
     
-    
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var joinButton: UIButton!
     
     @IBAction func transferLoginData(_ sender: Any) {
         guard let receiveViewController = self.storyboard?.instantiateViewController(identifier: "loginViewController") as? LoginViewController else {return}
@@ -28,8 +29,17 @@ class SOPTmainViewController: UIViewController {
         receiveViewController.idLog = idTextField.text
         receiveViewController.pwLog = pwTextField.text
         
+        receiveViewController.modalPresentationStyle = .fullScreen
+        
         self.present(receiveViewController, animated: true, completion: nil)
         
+        
+    }
+    
+    func setRound() {
+        loginButton.layer.cornerRadius = 10;
+        joinButton.layer.cornerRadius = 10;
+    
         
     }
     

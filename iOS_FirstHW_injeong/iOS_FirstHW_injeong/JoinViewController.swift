@@ -16,6 +16,8 @@ class JoinViewController: UIViewController {
             return
         }
         
+        joinClick2.modalPresentationStyle = .fullScreen
+        
         self.present(joinClick2, animated: true)
     }
     

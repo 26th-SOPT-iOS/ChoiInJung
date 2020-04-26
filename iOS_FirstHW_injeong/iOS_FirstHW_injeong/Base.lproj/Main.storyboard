@@ -178,6 +178,8 @@
                     <navigationItem key="navigationItem" id="yPM-a1-Eg9"/>
                     <connections>
                         <outlet property="idTextField" destination="72P-5c-Jb1" id="4R2-CI-06g"/>
+                        <outlet property="joinButton" destination="tQB-Ee-4KK" id="Ds5-p4-sOb"/>
+                        <outlet property="loginButton" destination="79P-OV-eo6" id="NRA-DS-XN7"/>
                         <outlet property="pwTextField" destination="6Hg-vx-GEN" id="yKm-1H-vYB"/>
                     </connections>
                 </viewController>
