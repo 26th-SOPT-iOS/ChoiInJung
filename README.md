@@ -10,10 +10,11 @@
  * 프로젝트 생성
 
  **2.  UI 요소 다루기**
-* StoryBorad에서 `Shift` + `command `+ `L` 누른 후 Objects 창에서 Text Field, Label, Switch, Button 등을 Drag & Drop으로 가져다가 사
+* StoryBorad에서 `Shift` + `command `+ `L` 누른 후 <br/>
+   Objects창에서 Text Field, Label, Switch, Button 등을 `Drag&Drop`으로 가져다가 사용
 
 **3.  화면 전환**
- * **Segue** (StoryBoard에서 바로 지정)
+ * **Segue** (StoryBoard에서 바로 지정하는 방법)
      * UIview를 검색하여 View controller를 하나 생성 _(2개의 VC 준비)_
      * First VC의 Button을 Second VC에 `control`+ `Drag` 후 Action Segue에서 PresentModally
 
