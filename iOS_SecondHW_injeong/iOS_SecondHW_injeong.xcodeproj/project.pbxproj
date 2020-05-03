@@ -14,6 +14,10 @@
 		F497ADBF245C6FD5008E04CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F497ADBE245C6FD5008E04CA /* Assets.xcassets */; };
 		F497ADC2245C6FD5008E04CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F497ADC0245C6FD5008E04CA /* LaunchScreen.storyboard */; };
 		F497ADCA245C75A5008E04CA /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADC9245C75A5008E04CA /* ButtonViewController.swift */; };
+		F497ADCC245D8E04008E04CA /* soptLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADCB245D8E03008E04CA /* soptLogo@3x.png */; };
+		F497ADCE245D8F0C008E04CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADCD245D8F0C008E04CA /* MainViewController.swift */; };
+		F497ADD0245E77BE008E04CA /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADCF245E77BD008E04CA /* backButton.png */; };
+		F497ADD2245E7B62008E04CA /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADD1245E7B62008E04CA /* JoinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		F497ADC1245C6FD5008E04CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F497ADC3245C6FD5008E04CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F497ADC9245C75A5008E04CA /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		F497ADCB245D8E03008E04CA /* soptLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soptLogo@3x.png"; sourceTree = "<group>"; };
+		F497ADCD245D8F0C008E04CA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F497ADCF245E77BD008E04CA /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		F497ADD1245E7B62008E04CA /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,11 @@
 				F497ADBE245C6FD5008E04CA /* Assets.xcassets */,
 				F497ADC0245C6FD5008E04CA /* LaunchScreen.storyboard */,
 				F497ADC3245C6FD5008E04CA /* Info.plist */,
+				F497ADCF245E77BD008E04CA /* backButton.png */,
 				F497ADC9245C75A5008E04CA /* ButtonViewController.swift */,
+				F497ADCB245D8E03008E04CA /* soptLogo@3x.png */,
+				F497ADCD245D8F0C008E04CA /* MainViewController.swift */,
+				F497ADD1245E7B62008E04CA /* JoinViewController.swift */,
 			);
 			path = iOS_SecondHW_injeong;
 			sourceTree = "<group>";
@@ -128,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F497ADCC245D8E04008E04CA /* soptLogo@3x.png in Resources */,
 				F497ADC2245C6FD5008E04CA /* LaunchScreen.storyboard in Resources */,
+				F497ADD0245E77BE008E04CA /* backButton.png in Resources */,
 				F497ADBF245C6FD5008E04CA /* Assets.xcassets in Resources */,
 				F497ADBD245C6FD3008E04CA /* Main.storyboard in Resources */,
 			);
@@ -145,6 +159,8 @@
 				F497ADBA245C6FD3008E04CA /* ViewController.swift in Sources */,
 				F497ADB6245C6FD3008E04CA /* AppDelegate.swift in Sources */,
 				F497ADB8245C6FD3008E04CA /* SceneDelegate.swift in Sources */,
+				F497ADD2245E7B62008E04CA /* JoinViewController.swift in Sources */,
+				F497ADCE245D8F0C008E04CA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
