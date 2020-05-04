@@ -18,6 +18,18 @@
 		F497ADCE245D8F0C008E04CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADCD245D8F0C008E04CA /* MainViewController.swift */; };
 		F497ADD0245E77BE008E04CA /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADCF245E77BD008E04CA /* backButton.png */; };
 		F497ADD2245E7B62008E04CA /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADD1245E7B62008E04CA /* JoinViewController.swift */; };
+		F497ADD424601EFE008E04CA /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADD324601EFE008E04CA /* ScrollViewController.swift */; };
+		F497ADD62460200F008E04CA /* idcheckGreenIc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADD52460200F008E04CA /* idcheckGreenIc@3x.png */; };
+		F497ADD824602015008E04CA /* idcheckRedIc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADD724602015008E04CA /* idcheckRedIc@3x.png */; };
+		F497ADE12460201D008E04CA /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADD92460201C008E04CA /* 3.png */; };
+		F497ADE22460201D008E04CA /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADDA2460201D008E04CA /* 7.png */; };
+		F497ADE32460201D008E04CA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADDB2460201D008E04CA /* 1.png */; };
+		F497ADE42460201D008E04CA /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADDC2460201D008E04CA /* 6.png */; };
+		F497ADE52460201D008E04CA /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADDD2460201D008E04CA /* 5.png */; };
+		F497ADE62460201D008E04CA /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADDE2460201D008E04CA /* 2.png */; };
+		F497ADE72460201D008E04CA /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADDF2460201D008E04CA /* 4.png */; };
+		F497ADE82460201D008E04CA /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADE02460201D008E04CA /* 8.png */; };
+		F497ADEA24602026008E04CA /* oursoptBgImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F497ADE924602026008E04CA /* oursoptBgImg@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +46,18 @@
 		F497ADCD245D8F0C008E04CA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F497ADCF245E77BD008E04CA /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		F497ADD1245E7B62008E04CA /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		F497ADD324601EFE008E04CA /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		F497ADD52460200F008E04CA /* idcheckGreenIc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idcheckGreenIc@3x.png"; sourceTree = "<group>"; };
+		F497ADD724602015008E04CA /* idcheckRedIc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idcheckRedIc@3x.png"; sourceTree = "<group>"; };
+		F497ADD92460201C008E04CA /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F497ADDA2460201D008E04CA /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		F497ADDB2460201D008E04CA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F497ADDC2460201D008E04CA /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		F497ADDD2460201D008E04CA /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F497ADDE2460201D008E04CA /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F497ADDF2460201D008E04CA /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		F497ADE02460201D008E04CA /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		F497ADE924602026008E04CA /* oursoptBgImg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oursoptBgImg@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +98,22 @@
 				F497ADC0245C6FD5008E04CA /* LaunchScreen.storyboard */,
 				F497ADC3245C6FD5008E04CA /* Info.plist */,
 				F497ADCF245E77BD008E04CA /* backButton.png */,
+				F497ADE924602026008E04CA /* oursoptBgImg@3x.png */,
 				F497ADC9245C75A5008E04CA /* ButtonViewController.swift */,
+				F497ADD52460200F008E04CA /* idcheckGreenIc@3x.png */,
+				F497ADDB2460201D008E04CA /* 1.png */,
+				F497ADDE2460201D008E04CA /* 2.png */,
+				F497ADD92460201C008E04CA /* 3.png */,
+				F497ADDF2460201D008E04CA /* 4.png */,
+				F497ADDD2460201D008E04CA /* 5.png */,
+				F497ADDC2460201D008E04CA /* 6.png */,
+				F497ADDA2460201D008E04CA /* 7.png */,
+				F497ADE02460201D008E04CA /* 8.png */,
+				F497ADD724602015008E04CA /* idcheckRedIc@3x.png */,
 				F497ADCB245D8E03008E04CA /* soptLogo@3x.png */,
 				F497ADCD245D8F0C008E04CA /* MainViewController.swift */,
 				F497ADD1245E7B62008E04CA /* JoinViewController.swift */,
+				F497ADD324601EFE008E04CA /* ScrollViewController.swift */,
 			);
 			path = iOS_SecondHW_injeong;
 			sourceTree = "<group>";
@@ -140,11 +176,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F497ADE82460201D008E04CA /* 8.png in Resources */,
+				F497ADE62460201D008E04CA /* 2.png in Resources */,
+				F497ADE42460201D008E04CA /* 6.png in Resources */,
+				F497ADEA24602026008E04CA /* oursoptBgImg@3x.png in Resources */,
+				F497ADE22460201D008E04CA /* 7.png in Resources */,
 				F497ADCC245D8E04008E04CA /* soptLogo@3x.png in Resources */,
+				F497ADD62460200F008E04CA /* idcheckGreenIc@3x.png in Resources */,
+				F497ADD824602015008E04CA /* idcheckRedIc@3x.png in Resources */,
+				F497ADE12460201D008E04CA /* 3.png in Resources */,
 				F497ADC2245C6FD5008E04CA /* LaunchScreen.storyboard in Resources */,
+				F497ADE72460201D008E04CA /* 4.png in Resources */,
 				F497ADD0245E77BE008E04CA /* backButton.png in Resources */,
 				F497ADBF245C6FD5008E04CA /* Assets.xcassets in Resources */,
+				F497ADE52460201D008E04CA /* 5.png in Resources */,
 				F497ADBD245C6FD3008E04CA /* Main.storyboard in Resources */,
+				F497ADE32460201D008E04CA /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +205,7 @@
 				F497ADCA245C75A5008E04CA /* ButtonViewController.swift in Sources */,
 				F497ADBA245C6FD3008E04CA /* ViewController.swift in Sources */,
 				F497ADB6245C6FD3008E04CA /* AppDelegate.swift in Sources */,
+				F497ADD424601EFE008E04CA /* ScrollViewController.swift in Sources */,
 				F497ADB8245C6FD3008E04CA /* SceneDelegate.swift in Sources */,
 				F497ADD2245E7B62008E04CA /* JoinViewController.swift in Sources */,
 				F497ADCE245D8F0C008E04CA /* MainViewController.swift in Sources */,
