@@ -32,7 +32,7 @@ class ProfileCell: UITableViewCell {
         NameLabel.text = name
         subTitleLabel.text = title
         
-        ProfileImgView.layer.cornerRadius = 25
+        ProfileImgView.layer.cornerRadius = ProfileImgView.frame.height/2
     }
     
 }

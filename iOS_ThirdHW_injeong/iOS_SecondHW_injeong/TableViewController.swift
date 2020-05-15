@@ -45,7 +45,9 @@ class TableViewController: UIViewController {
    
     func setUserInfo(){
         UserImage.image = UIImage(named : "1.png")
-        UserImage.layer.cornerRadius = 25;
+        UserImage.layer.cornerRadius = UserImage.frame.height / 2;
+        UserImage.clipsToBounds = true
+        
     }
     
 
@@ -58,13 +60,15 @@ class TableViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+  
 }
 
 extension TableViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return profileInfos.count
     }
+    
+ 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let profileCell = tableView.dequeueReusableCell(withIdentifier: ProfileCell.identifier, for: indexPath) as? ProfileCell else {return UITableViewCell()}
@@ -78,6 +82,6 @@ extension TableViewController: UITableViewDataSource{
 
 extension TableViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 50
     }
 }
