@@ -422,6 +422,9 @@
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qEG-NA-9tA">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="210" id="iNq-MU-jER"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IVI-cu-e5N">
                                                 <rect key="frame" x="28" y="242" width="148" height="198"/>
