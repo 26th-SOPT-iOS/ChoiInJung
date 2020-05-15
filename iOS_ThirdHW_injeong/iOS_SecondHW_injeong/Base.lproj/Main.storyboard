@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RmS-er-Tho">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VOC-H6-G2Q">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -406,7 +406,7 @@
             </objects>
             <point key="canvasLocation" x="-117.59999999999999" y="472.90640394088672"/>
         </scene>
-        <!--Scroll View Controller-->
+        <!--홈-->
         <scene sceneID="Qfj-ks-7W9">
             <objects>
                 <viewController id="hP3-9F-A9N" customClass="ScrollViewController" customModule="iOS_SecondHW_injeong" customModuleProvider="target" sceneMemberID="viewController">
@@ -415,7 +415,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="POI-Oi-n46">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1116"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1067"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dcd-qT-k75">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1150"/>
@@ -639,6 +639,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dOG-Ec-VTT"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="홈" image="house" catalog="system" id="Bwe-M3-tiB"/>
                     <size key="freeformSize" width="375" height="1150"/>
                     <connections>
                         <outlet property="Img1" destination="IVI-cu-e5N" id="4xZ-su-8qr"/>
@@ -654,7 +655,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78q-VQ-zbq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-119.2" y="1268.7192118226601"/>
+            <point key="canvasLocation" x="823.20000000000005" y="1268.7192118226601"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JN2-WQ-5vM">
@@ -672,7 +673,7 @@
             </objects>
             <point key="canvasLocation" x="-121" y="2118"/>
         </scene>
-        <!--Table View Controller-->
+        <!--친구-->
         <scene sceneID="c8I-Ln-KPK">
             <objects>
                 <viewController id="RmS-er-Tho" customClass="TableViewController" customModule="iOS_SecondHW_injeong" customModuleProvider="target" sceneMemberID="viewController">
@@ -681,7 +682,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pcf-Os-fsX">
-                                <rect key="frame" x="0.0" y="174" width="375" height="604"/>
+                                <rect key="frame" x="0.0" y="174" width="375" height="555"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" id="PmA-FW-DTG" customClass="ProfileCell" customModule="iOS_SecondHW_injeong" customModuleProvider="target">
@@ -768,6 +769,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="v7s-Nm-erk"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="친구" image="person.fill" catalog="system" id="lhS-I3-d7n"/>
                     <connections>
                         <outlet property="ProfileTableView" destination="Pcf-Os-fsX" id="1Fb-fS-V1M"/>
                         <outlet property="UserImage" destination="QWF-hi-5jN" id="Hgc-R0-Cn2"/>
@@ -777,5 +779,27 @@
             </objects>
             <point key="canvasLocation" x="708" y="2094.8275862068967"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NQO-2W-7RZ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="VOC-H6-G2Q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BGV-LW-AHq">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hP3-9F-A9N" kind="relationship" relationship="viewControllers" id="WTn-Hr-SJq"/>
+                        <segue destination="RmS-er-Tho" kind="relationship" relationship="viewControllers" id="ueK-pi-rKH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qsm-kd-pcW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-117.59999999999999" y="1268.7192118226601"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+    </resources>
 </document>
