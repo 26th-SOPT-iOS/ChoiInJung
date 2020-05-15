@@ -427,6 +427,7 @@
                                                 <rect key="frame" x="28" y="242" width="148" height="198"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="198" id="7E2-q0-Z58"/>
+                                                    <constraint firstAttribute="width" constant="148" id="k1H-Oa-AxO"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qe5-GC-yLT">
@@ -769,6 +770,9 @@
                                     <constraint firstAttribute="height" constant="17" id="s8l-g9-8qt"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="다운로드"/>
+                                <connections>
+                                    <action selector="listSettingButton:" destination="RmS-er-Tho" eventType="touchUpInside" id="L8d-C8-C6L"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

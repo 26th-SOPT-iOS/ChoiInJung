@@ -50,7 +50,21 @@ class TableViewController: UIViewController {
         
     }
     
-
+    @IBAction func listSettingButton(_ sender: Any) {
+        let settingOption = UIAlertController()
+        
+        let manageFriends = UIAlertAction(title : "친구 관리", style: .default)
+        let settingAll = UIAlertAction(title : "전체 설정", style: .default)
+        let cancel = UIAlertAction(title : "취소", style: .cancel)
+        
+        settingOption.addAction(manageFriends)
+        settingOption.addAction(settingAll)
+        settingOption.addAction(cancel)
+        
+        self.present(settingOption, animated: true, completion: nil)
+    
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -61,6 +75,12 @@ class TableViewController: UIViewController {
     }
     */
   
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            profileInfos.remove(at : indexPath.row)
+            ProfileTableView.deleteRows(at: [indexPath], with: .bottom)
+        }
+    }
 }
 
 extension TableViewController: UITableViewDataSource{
@@ -84,4 +104,8 @@ extension TableViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
     }
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
 }
