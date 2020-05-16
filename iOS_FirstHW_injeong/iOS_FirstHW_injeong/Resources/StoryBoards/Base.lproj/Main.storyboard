@@ -151,6 +151,7 @@
                                     <color key="titleShadowColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="login:" destination="gnQ-LK-S2D" eventType="touchUpInside" id="1zi-wt-lLm"/>
                                     <action selector="transferLoginData:" destination="gnQ-LK-S2D" eventType="touchUpInside" id="enq-ME-ccN"/>
                                 </connections>
                             </button>
