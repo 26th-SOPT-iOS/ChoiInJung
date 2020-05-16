@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003F47D5F1C7A7068C0466C0 /* Pods_iOS_SecondHW_injeong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9914ED4E3D3E9327298554 /* Pods_iOS_SecondHW_injeong.framework */; };
 		F497ADB6245C6FD3008E04CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADB5245C6FD3008E04CA /* AppDelegate.swift */; };
 		F497ADB8245C6FD3008E04CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADB7245C6FD3008E04CA /* SceneDelegate.swift */; };
 		F497ADBA245C6FD3008E04CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497ADB9245C6FD3008E04CA /* ViewController.swift */; };
@@ -33,9 +34,18 @@
 		F4ABD374246D9E82000D92E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD373246D9E82000D92E5 /* TableViewController.swift */; };
 		F4ABD376246DA0CD000D92E5 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD375246DA0CD000D92E5 /* ProfileCell.swift */; };
 		F4ABD378246DA228000D92E5 /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD377246DA228000D92E5 /* ProfileInfo.swift */; };
+		F4ABD3AD246FD343000D92E5 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD3AC246FD343000D92E5 /* APIConstants.swift */; };
+		F4ABD3AF246FD36B000D92E5 /* SigninData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD3AE246FD36B000D92E5 /* SigninData.swift */; };
+		F4ABD3B1246FD385000D92E5 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD3B0246FD385000D92E5 /* NetworkResult.swift */; };
+		F4ABD3B3246FD3A7000D92E5 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD3B2246FD3A7000D92E5 /* LoginService.swift */; };
+		F4ABD3B8246FD79D000D92E5 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD3B7246FD79D000D92E5 /* SignupService.swift */; };
+		F4ABD3BA246FD927000D92E5 /* SignupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD3B9246FD927000D92E5 /* SignupData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C0569FE066C72E4627F2BAA /* Pods-iOS_SecondHW_injeong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_SecondHW_injeong.release.xcconfig"; path = "Target Support Files/Pods-iOS_SecondHW_injeong/Pods-iOS_SecondHW_injeong.release.xcconfig"; sourceTree = "<group>"; };
+		5163295B4BAA31985772FC09 /* Pods-iOS_SecondHW_injeong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_SecondHW_injeong.debug.xcconfig"; path = "Target Support Files/Pods-iOS_SecondHW_injeong/Pods-iOS_SecondHW_injeong.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9914ED4E3D3E9327298554 /* Pods_iOS_SecondHW_injeong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_SecondHW_injeong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F497ADB2245C6FD2008E04CA /* iOS_SecondHW_injeong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_SecondHW_injeong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F497ADB5245C6FD3008E04CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F497ADB7245C6FD3008E04CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +74,12 @@
 		F4ABD373246D9E82000D92E5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F4ABD375246DA0CD000D92E5 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		F4ABD377246DA228000D92E5 /* ProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
+		F4ABD3AC246FD343000D92E5 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		F4ABD3AE246FD36B000D92E5 /* SigninData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninData.swift; sourceTree = "<group>"; };
+		F4ABD3B0246FD385000D92E5 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		F4ABD3B2246FD3A7000D92E5 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		F4ABD3B7246FD79D000D92E5 /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
+		F4ABD3B9246FD927000D92E5 /* SignupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +87,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003F47D5F1C7A7068C0466C0 /* Pods_iOS_SecondHW_injeong.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BFAB45BA40B4DBE0EE13B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB9914ED4E3D3E9327298554 /* Pods_iOS_SecondHW_injeong.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEEBA5B97AAB5220924335EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5163295B4BAA31985772FC09 /* Pods-iOS_SecondHW_injeong.debug.xcconfig */,
+				1C0569FE066C72E4627F2BAA /* Pods-iOS_SecondHW_injeong.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F497ADA9245C6FD2008E04CA = {
 			isa = PBXGroup;
 			children = (
 				F497ADB4245C6FD3008E04CA /* iOS_SecondHW_injeong */,
 				F497ADB3245C6FD2008E04CA /* Products */,
+				AEEBA5B97AAB5220924335EE /* Pods */,
+				5BFAB45BA40B4DBE0EE13B2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,17 +132,24 @@
 		F497ADB4245C6FD3008E04CA /* iOS_SecondHW_injeong */ = {
 			isa = PBXGroup;
 			children = (
-				F497ADB5245C6FD3008E04CA /* AppDelegate.swift */,
-				F497ADB7245C6FD3008E04CA /* SceneDelegate.swift */,
-				F497ADB9245C6FD3008E04CA /* ViewController.swift */,
-				F497ADBB245C6FD3008E04CA /* Main.storyboard */,
-				F497ADBE245C6FD5008E04CA /* Assets.xcassets */,
-				F497ADC0245C6FD5008E04CA /* LaunchScreen.storyboard */,
 				F497ADC3245C6FD5008E04CA /* Info.plist */,
+				F4ABD39B246FADE6000D92E5 /* Sources */,
+				F4ABD399246FADAA000D92E5 /* Resource */,
+			);
+			path = iOS_SecondHW_injeong;
+			sourceTree = "<group>";
+		};
+		F4ABD399246FADAA000D92E5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F4ABD3AB246FD30B000D92E5 /* APIServices */,
+				F4ABD39A246FADC7000D92E5 /* StoryBoards */,
+				F497ADBE245C6FD5008E04CA /* Assets.xcassets */,
 				F497ADCF245E77BD008E04CA /* backButton.png */,
 				F497ADE924602026008E04CA /* oursoptBgImg@3x.png */,
-				F497ADC9245C75A5008E04CA /* ButtonViewController.swift */,
 				F497ADD52460200F008E04CA /* idcheckGreenIc@3x.png */,
+				F497ADD724602015008E04CA /* idcheckRedIc@3x.png */,
+				F497ADCB245D8E03008E04CA /* soptLogo@3x.png */,
 				F497ADDB2460201D008E04CA /* 1.png */,
 				F497ADDE2460201D008E04CA /* 2.png */,
 				F497ADD92460201C008E04CA /* 3.png */,
@@ -115,16 +158,71 @@
 				F497ADDC2460201D008E04CA /* 6.png */,
 				F497ADDA2460201D008E04CA /* 7.png */,
 				F497ADE02460201D008E04CA /* 8.png */,
-				F497ADD724602015008E04CA /* idcheckRedIc@3x.png */,
-				F497ADCB245D8E03008E04CA /* soptLogo@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F4ABD39A246FADC7000D92E5 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				F497ADBB245C6FD3008E04CA /* Main.storyboard */,
+				F497ADC0245C6FD5008E04CA /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		F4ABD39B246FADE6000D92E5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F4ABD3B6246FD749000D92E5 /* NetworkData */,
+				F4ABD39D246FAE1A000D92E5 /* Cells */,
+				F4ABD39C246FADFD000D92E5 /* ViewControllers */,
+				F497ADB5245C6FD3008E04CA /* AppDelegate.swift */,
+				F497ADB7245C6FD3008E04CA /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F4ABD39C246FADFD000D92E5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F497ADC9245C75A5008E04CA /* ButtonViewController.swift */,
+				F497ADB9245C6FD3008E04CA /* ViewController.swift */,
 				F497ADCD245D8F0C008E04CA /* MainViewController.swift */,
 				F497ADD1245E7B62008E04CA /* JoinViewController.swift */,
 				F497ADD324601EFE008E04CA /* ScrollViewController.swift */,
 				F4ABD373246D9E82000D92E5 /* TableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F4ABD39D246FAE1A000D92E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
 				F4ABD375246DA0CD000D92E5 /* ProfileCell.swift */,
 				F4ABD377246DA228000D92E5 /* ProfileInfo.swift */,
 			);
-			path = iOS_SecondHW_injeong;
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F4ABD3AB246FD30B000D92E5 /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				F4ABD3AC246FD343000D92E5 /* APIConstants.swift */,
+				F4ABD3B0246FD385000D92E5 /* NetworkResult.swift */,
+				F4ABD3B2246FD3A7000D92E5 /* LoginService.swift */,
+				F4ABD3B7246FD79D000D92E5 /* SignupService.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
+		F4ABD3B6246FD749000D92E5 /* NetworkData */ = {
+			isa = PBXGroup;
+			children = (
+				F4ABD3AE246FD36B000D92E5 /* SigninData.swift */,
+				F4ABD3B9246FD927000D92E5 /* SignupData.swift */,
+			);
+			path = NetworkData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F497ADC6245C6FD5008E04CA /* Build configuration list for PBXNativeTarget "iOS_SecondHW_injeong" */;
 			buildPhases = (
+				53E4A7D558C6B175D2B6CFBD /* [CP] Check Pods Manifest.lock */,
 				F497ADAE245C6FD2008E04CA /* Sources */,
 				F497ADAF245C6FD2008E04CA /* Frameworks */,
 				F497ADB0245C6FD2008E04CA /* Resources */,
+				891BFE4288A98093F574D26F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,21 +306,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53E4A7D558C6B175D2B6CFBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_SecondHW_injeong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		891BFE4288A98093F574D26F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_SecondHW_injeong/Pods-iOS_SecondHW_injeong-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_SecondHW_injeong/Pods-iOS_SecondHW_injeong-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_SecondHW_injeong/Pods-iOS_SecondHW_injeong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F497ADAE245C6FD2008E04CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F497ADCA245C75A5008E04CA /* ButtonViewController.swift in Sources */,
+				F4ABD3AD246FD343000D92E5 /* APIConstants.swift in Sources */,
 				F497ADBA245C6FD3008E04CA /* ViewController.swift in Sources */,
+				F4ABD3B8246FD79D000D92E5 /* SignupService.swift in Sources */,
 				F497ADB6245C6FD3008E04CA /* AppDelegate.swift in Sources */,
 				F4ABD374246D9E82000D92E5 /* TableViewController.swift in Sources */,
+				F4ABD3AF246FD36B000D92E5 /* SigninData.swift in Sources */,
+				F4ABD3B1246FD385000D92E5 /* NetworkResult.swift in Sources */,
 				F497ADD424601EFE008E04CA /* ScrollViewController.swift in Sources */,
 				F4ABD378246DA228000D92E5 /* ProfileInfo.swift in Sources */,
 				F497ADB8245C6FD3008E04CA /* SceneDelegate.swift in Sources */,
+				F4ABD3BA246FD927000D92E5 /* SignupData.swift in Sources */,
 				F4ABD376246DA0CD000D92E5 /* ProfileCell.swift in Sources */,
 				F497ADD2245E7B62008E04CA /* JoinViewController.swift in Sources */,
 				F497ADCE245D8F0C008E04CA /* MainViewController.swift in Sources */,
+				F4ABD3B3246FD3A7000D92E5 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +510,7 @@
 		};
 		F497ADC7245C6FD5008E04CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5163295B4BAA31985772FC09 /* Pods-iOS_SecondHW_injeong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +528,7 @@
 		};
 		F497ADC8245C6FD5008E04CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0569FE066C72E4627F2BAA /* Pods-iOS_SecondHW_injeong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
